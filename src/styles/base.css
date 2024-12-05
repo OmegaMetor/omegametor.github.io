@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #ccc;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+    max-width: clamp(45%, 900px, 100%);
+}
+
+.container h1,
+.container h2,
+.container h3 {
+    text-align: center;
+}
+
+.container img,
+.container>* {
+    width: 90%;
+    max-width: 100%;
+    line-height: 1.4;
+    margin: auto;
+    display: block;
+    color: #333;
+    padding: 1rem;
+    overflow-wrap: break-word;
+}
